@@ -1,0 +1,11 @@
+Makefile
+3rdparty/mongo-c-driver/.obj/
+3rdparty/mongo-c-driver/libmongoc.a
+tools/tspawn/defaults/
+.*.sw?
+debian/*.log
+*.o
+*.cpp
+*.moc
+*.so.*
+*.so
