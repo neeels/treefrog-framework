@@ -1,0 +1,19 @@
+Source: treefrog-framework
+Section: libs
+Priority: optional
+Maintainer: sysmocom s.m.f.c. GmbH <info@sysmocom.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: treefrog-framework
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: TreeFrog Framework, High-speed C++ MVC Framework for Web Application
+
+Package: treefrog-framework-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: ${misc:Depends}
+Description: Debug symbols for treefrog-framework
